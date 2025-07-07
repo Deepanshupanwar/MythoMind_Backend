@@ -12,7 +12,7 @@ const app = express()
 connectDB();
 
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://mytho-mind-frontend.vercel.app",
     credentials: true
 }))
 app.use(express.json());
